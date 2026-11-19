@@ -64,7 +64,14 @@ switch (arl) {
 
 }
 
+let calcularArl = ibc*arl
 
+/*total de aportes */
+
+
+let totalAportes= calcularSalud + clalcularPension + calcularFondo + calcularArl
+
+let netoContratistas = honorarios-totalAportes
 
 
 
