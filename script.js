@@ -52,15 +52,17 @@ let nivelRiesgo = 0
 switch (arl) { 
 
     case 1:
-        nivelRiesgo = 0.0522
+        nivelRiesgo = 0.0522*ibc
         break;
 
     case 2: 
-         nivelRiesgo = 0.1044
+         nivelRiesgo = 0.1044*ibc
         break;
 
     case 3: 
-        nivelRiesgo =  0.2436
+        nivelRiesgo =  0.2436*ibc
+
+        default :
 
 }
 
