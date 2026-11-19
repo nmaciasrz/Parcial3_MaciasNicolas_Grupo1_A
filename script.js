@@ -71,12 +71,17 @@ let calcularArl = ibc*arl
 
 let totalAportes= calcularSalud + clalcularPension + calcularFondo + calcularArl
 
+/* neto contratistas*/
+
 let netoContratistas = honorarios-totalAportes
 
 
+/*salidas */
 
 
-
+alert(
+    "ibc:" + ibc + "aporte a salud" + calcularSalud +  "aporte a pension" + clalcularPension + "fondo de solidaridad"  + "ARL" + calcularArl + "total de aportes: " + totalAportes + "neto del contratista: " + netoContratistas
+)
 
 
 
